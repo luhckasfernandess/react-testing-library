@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import renderWithRouter from './renderWithRouter';
 import App from '../App';
 
-describe('Check if the App.test file covers 100% of the tests created by Stryker', () => {
+describe('Test the <App.js /> component', () => {
   it('Test if the top application contains a fixed set of navigation links', () => {
     // O primeiro link deve possuir o texto Home.
     renderWithRouter(<App />);
